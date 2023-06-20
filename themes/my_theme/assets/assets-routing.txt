@@ -1,0 +1,66 @@
+================
+ ASSETS ROUTING
+================
+
+JQUERY
+-------
+assets/jquery/main/1.7.2/jquery.min.js
+
+JQUERY UI
+----------
+assets/jquery/ui/1.8.23/css/smoothness/jquery-ui-1.8.23.custom.css
+assets/jquery/ui/1.8.23/js/minified/jquery-ui-1.8.23.custom.min.js
+
+BOOTSTRAP
+----------
+assets/bootstrap/main/2.0.4/css/bootstrap.min.css
+assets/bootstrap/main/2.0.4/js/bootstrap.min.js
+
+BOOTSTRAP DATEPICKER
+---------------------
+assets/bootstrap/plugin/datepicker/eyecon/1.0/css/datepicker.css
+assets/bootstrap/plugin/datepicker/eyecon/1.0/js/datepicker.js
+
+qTIP2
+------
+assets/jquery/plugin/qTip2/2.0.0/jquery.qtip.min.css
+assets/jquery/plugin/qTip2/2.0.0/jquery.qtip.min.js
+
+ICOMENU
+-------
+assets/icofont/icomenu/style.css
+
+DATATABLES
+-----------
+assets/jquery/plugin/datatables/1.9.2/css/dataTables.bootstrap.css
+assets/jquery/plugin/datatables/1.9.2/js/jquery.dataTables.min.js
+assets/jquery/plugin/datatables/1.9.2/js/dataTables.bootstrap.js
+assets/jquery/plugin/datatables/1.9.2/js/FixedHeader.min.js
+
+VALIDATION
+-----------
+assets/jquery/plugin/validation/1.9.0/jquery.validate.min.js
+assets/jquery/plugin/validation/1.9.0/localization/messages_idn.js
+
+FLOATING MENU
+--------------
+assets/jquery/plugin/floating-menu/2.0/floating.css
+
+ZEBRA DIALOG
+-------------
+assets/jquery/plugin/zebra/dialog/1.2/css/zebra_dialog.css
+assets/jquery/plugin/zebra/dialog/1.2/javascript/zebra_dialog.js
+
+MEIOMASK
+---------
+assets/jquery/plugin/meiomask/1.1.2/jquery.meio.mask.min.js
+
+SELECT2
+--------
+assets/jquery/plugin/select2/3.1/select2.min.js
+assets/jquery/plugin/select2/3.1/select2.css
+
+TOASTR
+-------
+assets/jquery/plugin/toastr/1.0.2/toastr.css
+assets/jquery/plugin/toastr/1.0.2/toastr.js

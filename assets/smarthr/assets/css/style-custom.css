@@ -1,0 +1,7 @@
+.breadcrumb-item.active a{
+  color: #6c757d !important;
+}
+.sidebar-vertical li a.active span, .sidebar-vertical li a.active i{
+  color: #ffffff;
+  font-weight: bold;
+}

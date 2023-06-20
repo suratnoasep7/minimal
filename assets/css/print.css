@@ -1,0 +1,67 @@
+.garis {
+		BORDER-TOP: #000000 1px solid;
+				BORDER-BOTTOM: #000000 1px solid;
+}
+.garistengah {
+		BORDER-RIGHT: #000000 1px solid;
+				BORDER-BOTTOM: #000000 1px solid;
+}
+.dot {	
+				BORDER-BOTTOM: #000000 1px dotted;
+}
+.gariskanan {
+		BORDER-RIGHT: #000000 1px solid;
+}
+.garisatas {
+		BORDER-TOP: #000000 1px solid;
+}
+.garisbawah {
+		BORDER-BOTTOM: #000000 1px solid;
+}
+.kotakatas {
+				border-top: #000000 2px solid;
+				border-bottom: #000000 2px solid;
+}
+.kotakjurusan {
+				border-top: #000000 1px solid;
+				border-bottom: #000000 1px solid;
+}
+.kotak {
+				border-top: #000000 2px solid;
+				border-bottom: #000000 2px solid;
+				border-left: #000000 2px solid;
+				border-right: #000000 2px solid;
+}
+.kotakkecil {
+				border-top: #000000 1px solid;
+				border-bottom: #000000 1px solid;
+				border-left: #000000 1px solid;
+				border-right: #000000 1px solid;
+}
+P {
+		FONT-SIZE: 10px;
+		MARGIN-TOP: 5px; /*8*/
+		COLOR: #000000;
+		FONT-WEIGHT: bold;
+		FONT-FAMILY: Verdana,Arial
+}
+.Jurusan {
+		FONT-SIZE: 10px;
+		MARGIN-BOTTOM: 2px;
+		COLOR: #000000;
+		FONT-WEIGHT: bold;
+		FONT-FAMILY: Verdana,Arial
+}
+body {
+			margin-top: 0px;
+}
+.style8 {
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 10px;
+				font-weight: bold;
+				font-style: italic;
+}
+.style12 {
+				font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px;
+}
+.style14 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold; }

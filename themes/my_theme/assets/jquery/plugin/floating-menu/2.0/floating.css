@@ -1,0 +1,22 @@
+
+#floatmenu{
+	position: fixed;
+	display: inline-block;
+    z-index: 1000;
+    padding-top: 7px;
+    top: 40%;
+    right: 0;
+}
+
+#floatmenu .btn{
+	margin-bottom: 5px;
+}
+
+#floatmenu .label{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-size: 13px;
+}

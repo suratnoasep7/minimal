@@ -1,0 +1,55 @@
+.icomenu {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-image: url('sprites.png');
+	background-repeat: no-repeat;
+}
+.icomenu-orba {
+	background-position: 0px 0px;
+}
+.icomenu-kontrabon {
+	background-position: 0px -28px;
+}
+.icomenu-keuangan {
+	background-position: 0px -56px;
+}
+.icomenu-bis {
+	background-position: 0px -84px;
+}
+.icomenu-manufacture {
+	background-position: 0px -112px;
+}
+.icomenu-orja {
+	background-position: 0px -140px;
+}
+.icomenu-equalizer {
+	background-position: 0px -168px;
+}
+.icomenu-setoran {
+	background-position: 0px -196px;
+}
+.icomenu-gridview {
+	background-position: 0px -224px;
+}
+.icomenu-home {
+	background-position: 0px -252px;
+}
+.icomenu-inventory {
+	background-position: 0px -280px;
+}
+.icomenu-dashboard {
+	background-position: 0px -308px;
+}
+.icomenu-pariwisata {
+	background-position: 0px -336px;
+}
+.icomenu-personalia {
+	background-position: 0px -364px;
+}
+.icomenu-vcard {
+	background-position: 0px -392px;
+}
+.icomenu-wrench {
+	background-position: 0px -420px;
+}

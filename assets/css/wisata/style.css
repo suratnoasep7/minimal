@@ -1,0 +1,155 @@
+/*BIAR SELECT block TIDAK MUNCUL*/
+
+.bootstrap-select .btn:focus {
+    outline-color: transparent !important;
+}
+
+select, select:focus {
+    outline: none !important
+}
+
+/*END BIAR SELECT block TIDAK MUNCUL*/
+
+.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+    /*kalau mau hilangkan border kuning/hitam saat click di mobile version*/
+    outline: none;
+    box-shadow: none;
+}
+
+.form-control, .form-control:focus, .form-control:active, .btn, .btn:focus {
+    outline: none !important;
+    box-shadow: none;
+    /*kalau mau hilangkan bayangan biru saat click search bar*/
+}
+
+.form-control::placeholder:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+/* navbar animasi background shadow JS ada di dalam body bagian bawah*/
+
+.navbar-default {
+    transition: 500ms ease;
+    box-shadow: 0px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-page {
+    background: rgba(43, 25, 25, 0.959);
+}
+
+.navbar-default.scrolled {
+    box-shadow: 0px 0px 50px -30px #677477;
+    opacity: 1;
+}
+
+.navbar-default.scrolled {
+    box-shadow: 0px 0px 10px -5px #95a4a7;
+    background: rgb(255, 0, 0, .8);
+}
+
+/* end navbar animasi background shadow */
+
+/* buat popup hover di paket open trip landing page */
+.popup {
+    color: white;
+    opacity: 0;
+    position: relative;
+    margin-top: -150px;
+    margin-bottom: 70px;
+    text-align: center;
+    transition: 400ms ease;
+}
+
+.popup-text-mobile>div>div>p {
+    font-size: 1.9em;
+}
+
+@media(max-width:992px) {
+    .popup {
+        margin-top: -90px;
+        margin-bottom: 20px;
+    }
+    .popup-text-mobile div .blockquote {
+        font-size: 0.9em;
+    }
+    .popup-text-mobile div div small {
+        font-size: 0.6em;
+    }
+    .popup-text-mobile>div>div>p {
+        font-size: 0.9em;
+    }
+}
+
+.popup-red:hover .popup {
+    opacity: 1;
+    z-index: 2;
+    background-color: rgba(29, 28, 32, 0.9)
+}
+
+.popup-red:hover img {
+    z-index: 1;
+}
+
+.navbar-brand {
+    width: 250px;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+/* untuk mengatur tinggi rendah carousel */
+.carousel-item {
+    height: 35rem;
+}
+
+.carousel-item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 35rem;
+    object-fit: cover;
+}
+
+.carousel-page {
+    height: 15rem;
+    margin-top: 8em;
+}
+
+/* untuk membuat testimoni menjadi slider manual di mobile view */
+@media(max-width: 992px) {
+    .slide-testimoni-base {
+        width: auto;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .slide-testimoni-base::-webkit-scrollbar {
+        display: none;
+    }
+    .slide-testimoni {
+        width: 300%;
+        padding-bottom: 1em;
+        align-items: center;
+    }
+}
+
+/* untuk membuat text di kalender jadwal jadi kecil */
+@media(max-width:992px) {
+    .text-small-mobile {
+        font-size: 0.8em;
+    }
+}
+
+/* css saat pilih kursi */
+.kursi{
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/kursi/kursi-wisata-grey.png);
+    height: 60px;
+}
+.kursi:hover{
+    opacity: .5;
+    transition: 500ms ease;
+}

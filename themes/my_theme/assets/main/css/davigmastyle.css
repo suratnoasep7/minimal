@@ -1,0 +1,182 @@
+body{
+padding-top: 50px; /* 60px to make the container go all the way to the bottom of the topbar */
+background-color: #e5e5e5;
+}
+h1,h2,h3{
+font-family: Cambria;
+}
+span.label{
+	margin-top: -8px;
+}
+.btn-tiny{
+	font-size: 11px;
+	padding: 0px 7px;
+	margin-right: -25px;
+}
+.page-header{
+margin-top: 0;
+text-shadow: 0px 2px 3px #CCC;
+}
+.table{
+margin: 0;
+border-bottom: 1px solid #E8E8E8;
+}
+.table td{
+border-right: 1px solid #E8E8E8;
+}
+.table td:last-child{
+border-right: 0px;
+}
+.table .btn-toolbar,
+.table .btn-group{
+margin: 0;
+}
+.table a{
+    color: #33CC00;
+}
+.dawrap{
+width: 100%;
+padding-top: 30px;
+}
+.dabox{
+padding: 10px;
+margin-bottom: 15px;
+margin-left: auto;
+margin-right: auto;
+border: #E8E8E8 1px solid;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+.dabox-inline{
+display:inline-block;
+}
+.dabox form{
+margin-top: 10px;
+margin-bottom: 0px;
+}
+.dabox form .form-actions{
+margin-bottom: 0px;
+}
+.dabox legend{
+margin-top: -10px;
+text-align: center;
+}
+.dabox .tab-content {
+	margin-top: 30px;
+	overflow: inherit;
+}
+.dabox h3{
+padding: 6px 9px;
+margin: -9px;
+margin-bottom: 10px;
+width: 100%;
+-webkit-border-radius: 5px;
+-webkit-border-bottom-right-radius: 1px;
+-webkit-border-bottom-left-radius: 1px;
+-moz-border-radius: 5px;
+-moz-border-radius-bottomright: 1px;
+-moz-border-radius-bottomleft: 1px;
+border-radius: 5px;
+border-bottom-right-radius: 1px;
+border-bottom-left-radius: 1px;
+-webkit-box-shadow: 0px 2px 5px rgba(50, 50, 50, 0.19);
+-moz-box-shadow:    0px 2px 5px rgba(50, 50, 50, 0.19);
+box-shadow:         0px 2px 5px rgba(50, 50, 50, 0.19);
+}
+.dabox ul{
+list-Style: none;
+margin: -7px 0;
+padding: 0;
+}
+.dabox ul.pengguna{
+list-style: square inside url("../img/user.png");
+}
+.dabox ul li{
+padding: 7px 0;
+border-bottom: #E8E8E8 1px solid;
+}
+.dabox ul li:last-child{
+border-bottom: 0;
+}
+.dabox ul li small{
+font-size: x-small;
+}
+.dabox ul li abbr{
+font-size: x-small;
+}
+.text-orange{
+color: #FF6600;
+}
+.text-orange:hover{
+color: #FF6600;
+}
+.text-green{
+color: #009900;
+}
+.sidebar-input{
+width: 170px;
+}
+.thumbnail .caption{
+text-align: center;
+}
+.thumbnail .caption .btn-group{
+margin: 0 auto; 
+text-align: center;
+width: inherit;
+display: inline-block;
+}
+ul.nav li.dropdown:hover ul.dropdown-menu{
+    display: block;    
+}
+
+.uppercase{text-transform:uppercase;}
+.capitalize {text-transform:capitalize;}
+.lowercase {text-transform:lowercase;}
+
+.table-details .detail-label{
+	display: inline-block;
+	font-weight: bold;
+	width: 20%;
+	background-color: #F5F5F5;
+	padding: 5px;
+	margin-right: 5px;
+}
+
+.chartShortcuts {
+    list-style: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.chartShortcuts li {
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0 5px 5px 0;
+}
+
+.chartShortcuts a {
+    outline: medium none !important;
+    color: #666666;
+    float: left;
+    min-width: 50px;
+    padding: 10px 0 10px 10px;
+    text-align: left;
+}
+
+.chartShortcuts .head {
+    float: left;
+    font-size: 10px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.chartShortcuts .number {
+    float: left;
+    font-size: 15px;
+    width: 100%;
+}
